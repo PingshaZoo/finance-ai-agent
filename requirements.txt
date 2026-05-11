@@ -1,0 +1,41 @@
+# ============================================
+# Finance AI Agent - Python 依赖
+# 基于 README.md v2.0 终极版
+# ============================================
+
+# --- 核心 AI 引擎 ---
+anthropic>=0.100.0
+
+# --- 数据处理 ---
+pandas>=3.0.0
+openpyxl>=3.1.0
+xlsxwriter>=3.2.0
+
+# --- 文档生成 ---
+python-pptx>=1.0.0
+python-docx>=1.2.0
+
+# --- 浏览器自动化 ---
+playwright>=1.59.0
+
+# --- 文件监控 ---
+watchdog>=6.0.0
+
+# --- 安全存储 ---
+keyring>=25.0.0
+
+# --- 数据库 ORM ---
+sqlalchemy>=2.0.0
+
+# --- CLI 框架 ---
+click>=8.0.0
+
+# --- 可选依赖 ---
+# 本地 OCR（高保密客户使用）
+paddleocr>=3.5.0
+
+# Windows GUI 自动化（微信消息读取补充方案）
+pywinauto>=0.6.9
+
+# OpenAI API（备选 AI 引擎）
+openai>=2.34.0
